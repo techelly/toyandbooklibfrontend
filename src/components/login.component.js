@@ -81,7 +81,7 @@ class Login extends Component {
     }
 
     return (
-      <div className="col-md-12">
+      <div class="d-flex justify-content-center align-items-center container ">
         <div className="card bg-light text-dark">
           <h1><center>Login</center></h1>
 

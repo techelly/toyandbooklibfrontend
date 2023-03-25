@@ -165,13 +165,13 @@ class Register extends Component {
 
     return (
 
-      <div className="col-md-12">
+      <div class="d-flex justify-content-center align-items-center container ">
         <div className="card bg-light text-dark">
 
           <h1><center>User Registration </center></h1>
 
-
-          <Form
+ 
+          <Form 
             onSubmit={this.handleRegister}
             ref={(c) => {
               this.form = c;
